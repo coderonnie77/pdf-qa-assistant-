@@ -7,8 +7,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-st.set_page_config(page_title="PDF Q&A chatbot", page_icon="📚", layout="wide")
-st.title("AI Study Assistant Agent")
+st.set_page_config(page_title="PDF Q&A Chatbot", page_icon="📚", layout="wide")
+st.title("PDF Q&A Chatbot")
 st.caption("Upload your notes → Ask questions → Get answers from your material or the web")
 
 # Session state — persists data across Streamlit reruns
