@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-st.set_page_config(page_title="AI Study Assistant", page_icon="📚", layout="wide")
+st.set_page_config(page_title="PDF Q&A chatbot", page_icon="📚", layout="wide")
 st.title("AI Study Assistant Agent")
 st.caption("Upload your notes → Ask questions → Get answers from your material or the web")
 
